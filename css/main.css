@@ -15,14 +15,18 @@
 }
 
 .gradient {
-  background: linear-gradient(#530060, #da0987);;
+  background: linear-gradient(#530060, #da0987);
 }
 
 .vh100 {
 	height: 100vh;
 }
 
-.vertical-align-bottom {
+.pimg {
+  width: 40%;
+}
+
+.bottom {
   vertical-align: bottom;
 }
 .next-btn {
@@ -31,8 +35,8 @@
 }
 /* Clases específicas */
 .main-view-lyftlyfe-logo{
-  margin-top: 20%;
-  margin-bottom: 20%;
+  margin-top: 15%;
+  margin-bottom: 18%;
 }
 
 /* .logo-main-view-1 {
