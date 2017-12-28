@@ -21,6 +21,14 @@
 .vh100 {
 	height: 100vh;
 }
+
+.vertical-align-bottom {
+  vertical-align: bottom;
+}
+.next-btn {
+  width: 90%;
+  padding: 0.5em;
+}
 /* Clases específicas */
 .main-view-lyftlyfe-logo{
   margin-top: 20%;
@@ -42,6 +50,14 @@
 
 .btn-main-view {
   background-color: transparent;
-  border: 1px solid #fff;
+  border: 0.063em solid #fff;
   padding: 1em;
+}
+
+hr {
+  margin-top: 0.313em;
+}
+
+.info-button-signup, .info-button-verify-number, .info-button-fill-data {
+  margin-top: 1em;
 }
