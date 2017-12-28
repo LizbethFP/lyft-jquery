@@ -65,3 +65,7 @@ hr {
 .info-button-signup, .info-button-verify-number, .info-button-fill-data {
   margin-top: 1em;
 }
+
+.inputflag {
+  width: 70%;
+}

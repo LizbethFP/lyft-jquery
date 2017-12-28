@@ -7,6 +7,7 @@
 maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../vendors/flag-icon-css/css/flag-icon.css">
     <link rel="stylesheet" href="../vendors/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="../css/main.css">
   </head>
@@ -23,14 +24,19 @@ maximum-scale=1">
       <hr>
     </header>
 
-    <section>
+    <section class="text-center">
       <!-- Selección de países -->
-      <select class="" name="">
-        <option value="mexico">Mexico</option>
-        <option value="colombia">Colombia</option>
-        <option value="peru">Peru</option>
-        <option value="eeuu">United States</option>
-      </select>
+      <div class="btn-group">
+				 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				   <span data-bind="label">Country</span>&nbsp;<span class="caret"></span>
+				 </button>
+				 <ul class="dropdown-menu" role="menu">
+				    <li><a><span class="flag-icon flag-icon-mx"></span>Mexico</a></li>
+				    <li><a><span class="flag-icon flag-icon-co"></span>Colombia</a></li>
+				    <li><a><span class="flag-icon flag-icon-pe"></span>Peru</a></li>
+				    <li><a><span class="flag-icon flag-icon-us"></span>United states</a></li>
+				 </ul>
+			</div>
       <!-- Ingreso de número telefónico según cada país -->
       <input type="text" name="" value="">
       <input type="text" name="" value="" hidden>
