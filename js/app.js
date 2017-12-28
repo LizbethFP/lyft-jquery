@@ -4,7 +4,7 @@ function begin() {
 };
 
 
-// Aplicar transición de página
+// Aplicar transición de página index a vista principal
 function transitionPage() {
   setTimeout(function() {
     window.location.href = 'views/main-view.html';
