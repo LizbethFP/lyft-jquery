@@ -27,16 +27,23 @@ maximum-scale=1">
     <section class="text-center">
       <!-- Selección de países -->
       <div class="btn-group">
-				 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-				   <span data-bind="label">Country</span>&nbsp;<span class="caret"></span>
-				 </button>
-				 <ul class="dropdown-menu" role="menu">
-				    <li><a><span class="flag-icon flag-icon-mx"></span>Mexico</a></li>
-				    <li><a><span class="flag-icon flag-icon-co"></span>Colombia</a></li>
-				    <li><a><span class="flag-icon flag-icon-pe"></span>Peru</a></li>
-				    <li><a><span class="flag-icon flag-icon-us"></span>United states</a></li>
-				 </ul>
-			</div>
+		      <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+				      <span data-bind="label">Country</span>&nbsp;<span class="caret"></span>
+			     </button>
+				   <ul class="dropdown-menu" role="menu">
+				       <li><a href="#"><span class="flag-icon flag-icon-mx"></span>Mexico</a></li>
+				       <li><a href="#"><span class="flag-icon flag-icon-co"></span>Colombia</a></li>
+  		  		   <li><a href="#"><span class="flag-icon flag-icon-pe"></span>Peru</a></li>
+  				     <li><a href="#"><span class="flag-icon flag-icon-us"></span>United states</a></li>
+				  </ul>
+			 </div>
+
+      <select class="country-select" name="">
+        <option value="mexico">Mexico</option>
+        <option value="colombia">Colombia</option>
+        <option value="peru">Peru</option>
+        <option value="eeuu">United States</option>
+     </select>
       <!-- Ingreso de número telefónico según cada país -->
       <input type="text" name="" value="">
       <input type="text" name="" value="" hidden>
@@ -58,6 +65,6 @@ maximum-scale=1">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
     <!-- Javascript -->
-    <script type="text/javascript" src="../js/app.js"></script>
+    <script type="text/javascript" src="../js/signup.js"></script>
   </body>
 </html>
