@@ -12,6 +12,7 @@ maximum-scale=1">
   </head>
   <body>
     <header>
+      <!-- Botón para regresar atrás (vista principal) -->
       <div class="slide-buttons">
 		    <a href="main-view.html" type="button" class="btn btn-success">
 			  <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
@@ -23,12 +24,14 @@ maximum-scale=1">
     </header>
 
     <section>
+      <!-- Selección de países -->
       <select class="" name="">
         <option value="mexico">Mexico</option>
         <option value="colombia">Colombia</option>
         <option value="peru">Peru</option>
         <option value="eeuu">United States</option>
       </select>
+      <!-- Ingreso de número telefónico según cada país -->
       <input type="text" name="" value="">
       <input type="text" name="" value="" hidden>
       <input type="text" name="" value="" hidden>
@@ -38,6 +41,7 @@ maximum-scale=1">
     <section class="info-button-signup">
       <p class="text-center">We'll send you a text to verify your phone</p>
       <br>
+      <!-- Botón que se habilita al completar el número telefónico para brindar un código y pasar a la siguiente vista (vista de verificación de número telefónico) -->
       <button type="button" name="button" class="text-uppercase center-block next-btn" disabled>next</button>
     </section>
 

@@ -12,8 +12,9 @@ maximum-scale=1">
   </head>
   <body>
     <header>
+      <!-- Botón para regresar atrás (verificación de número telefónico) -->
       <div class="slide-buttons">
-		    <a href="main-view.html" type="button" class="btn btn-success">
+		    <a href="verify-number.html" type="button" class="btn btn-success">
 			  <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
 		    </a>
 	    </div>
@@ -23,17 +24,20 @@ maximum-scale=1">
     </header>
 
     <section class="fill-data">
+      <!-- Ingreso de nombre, apellido y correo electrónico -->
       <form class="" action="index.html" method="post">
         <input type="text" placeholder="First name">
         <input type="text" placeholder="Last name">
         <input type="text" placeholder="Email">
         <br>
         <br>
+        <!-- Checkbox de estar de acuerdo con los términos del servicio -->
         <p class="text-center">I agree to Lyft's <a href="#">Terms of service</a></p>
       </form>
     </section>
 
     <section class="info-button-fill-data">
+      <!-- Botón que se habilita al completar los datos personales y pasar a la siguiente vista (vista final) -->
       <button type="button" name="button" class="text-uppercase center-block next-btn" disabled>next</button>
     </section>
 
