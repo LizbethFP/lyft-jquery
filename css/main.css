@@ -27,12 +27,17 @@
   margin-bottom: 20%;
 }
 
-.logo-main-view-1 {
+/* .logo-main-view-1 {
   transform: translate(0,40px);
 }
 
 .logo-main-view-2 {
   transform: translate(0,-40px);
+} */
+
+.main-view-lyftlyfe-logo img {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .btn-main-view {
