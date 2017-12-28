@@ -10,7 +10,7 @@
 .container-flex-column {
   display: flex;
 	flex-direction: column;
-  align-items: center;
+  justify-content: center;
 	padding: 2em;
 }
 
@@ -22,9 +22,9 @@
 	height: 100vh;
 }
 /* Clases específicas */
-.main-view-pink-logos{
-  margin-top: 25%;
-  margin-bottom: 28%;
+.main-view-lyftlyfe-logo{
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 
 .logo-main-view-1 {
