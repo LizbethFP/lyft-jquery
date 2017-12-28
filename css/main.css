@@ -10,7 +10,7 @@
 .container-flex-column {
   display: flex;
 	flex-direction: column;
-  justify-content: center;
+  align-items: center;
 	padding: 2em;
 }
 
@@ -22,3 +22,21 @@
 	height: 100vh;
 }
 /* Clases específicas */
+.main-view-pink-logos{
+  margin-top: 25%;
+  margin-bottom: 28%;
+}
+
+.logo-main-view-1 {
+  transform: translate(0,40px);
+}
+
+.logo-main-view-2 {
+  transform: translate(0,-40px);
+}
+
+.btn-main-view {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 1em;
+}
