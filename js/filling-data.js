@@ -3,6 +3,7 @@ function begin() {
   checkedBox();
   enableButton();
   disableButton();
+  selectButton();
 };
 
 // Crear función para validar que se ha ingresado los datos necesario: el nombre, apellido y correo electrónico
@@ -110,6 +111,14 @@ function disableButton() {
     'border': 'none',
     'color': 'inherit',
     'fontWeight': 'normal'
+  });
+}
+
+/* FUNCIÓN PARA DARLE CLIC AL BOTON Y REDIRECCIONARSE A LA SIGUIENTE VISTA */
+function selectButton() {
+  var nextButton = $('.next-btn');
+  $(nextButton).on('click', function() {
+    window.location.href = 'last-view.html';
   });
 }
 

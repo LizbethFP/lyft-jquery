@@ -1,6 +1,7 @@
 function begin() {
   alert('verify number JS');
   insertCode();
+  selectButton();
 };
 
 function insertCode() {
@@ -39,6 +40,14 @@ function disableButton() {
     'border': '1px solid darkGrey',
     'color': 'inherit',
     'fontWeight': 'normal'
+  });
+}
+
+/* FUNCIÓN PARA DARLE CLIC AL BOTON Y REDIRECCIONARSE A LA SIGUIENTE VISTA */
+function selectButton() {
+  var nextButton = $('.next-btn');
+  $(nextButton).on('click', function() {
+    window.location.href = 'filling-data.html';
   });
 }
 
