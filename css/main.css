@@ -69,3 +69,11 @@ hr {
 .inputflag {
   width: 70%;
 }
+
+.fill-data input:nth-child(1), .fill-data input:nth-child(2) {
+  width: 45%;
+}
+
+.fill-data input:nth-child(3) {
+  width: 91%
+}
