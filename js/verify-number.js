@@ -1,5 +1,5 @@
 function begin() {
-  alert('verify number JS');
+  // alert('verify number JS');
   insertCode();
   selectButton();
 };
