@@ -14,6 +14,13 @@
 	padding: 2em;
 }
 
+.container-flex-column-last-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 2em;
+}
+
 .gradient {
   background: linear-gradient(#530060, #da0987);
 }
@@ -26,18 +33,19 @@
   width: 40%;
 }
 
-.bottom {
-  vertical-align: bottom;
-}
+/* .bottom {
+  align-self: flex-end;
+} */
+
 .next-btn {
   width: 90%;
   padding: 0.5em;
 }
 /* Clases específicas */
-.main-view-lyftlyfe-logo{
+/* .main-view-lyftlyfe-logo{
   margin-top: 15%;
   margin-bottom: 18%;
-}
+} */
 
 /* .logo-main-view-1 {
   transform: translate(0,40px);
@@ -70,10 +78,10 @@ hr {
   width: 70%;
 }
 
-.fill-data input:nth-child(1), .fill-data input:nth-child(2) {
+#first-name-input, #last-name-input {
   width: 45%;
 }
 
-.fill-data input:nth-child(3) {
+#email-input {
   width: 91%
 }
