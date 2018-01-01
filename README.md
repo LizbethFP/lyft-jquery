@@ -5,7 +5,7 @@
 * **Unidad:** _Agiliza tu desarrollo_
 
 ***
-### Se puede acceder a este proyecto en [Github](https://lizbethfp.github.io// "Github")
+### Se puede acceder a este proyecto en [Github](https://lizbethfp.github.io/lyft-jquery/ "Github")
 ***
 
 ## Objetivo
